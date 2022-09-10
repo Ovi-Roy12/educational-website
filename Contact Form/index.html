@@ -5,139 +5,179 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet'>
   <script src="https://kit.fontawesome.com/07825a9de1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+  <script src="/new/main/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  <script>
+    $(document).ready(function() {
+    $('#icon').click(function() {
+    
+      $('ul').toggleClass('show')
+    });
+    
+    });
+    </script>
   <title>Contact form</title>
 </head>
 <body>
 
 
+ 
   <nav>
-    <input type="checkbox" id="check">
-    <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
+    <label for=""> <img class="logo-pic"  src="./img/mks.jpg" alt="image"></label>
+    <label for="" class="logo">MEHER ACADEMY</label>
+      
 
-    <label class="logo">MKS Academy</label>
-    <ul class="active">
-      <li> <a href="#">HOME</a></li>
-      <li> <a href="#">ABOUT US</a></li>
-      <li> <a href="#">COURSES</a></li>
-      <li> <a href="#">ONLINE COURSES</a></li>
-      <li> <a href="#">GALLERY</a></li>
-      <li> <a href="#">CONTACT US</a></li>
-      <li> <a class="login" href="#">STUDENT LOGIN</a></li>
+    <ul>
+        <li><a  href=""> home</a></li>
+        <li><a  href=""> about us</a></li>
+        <li><a  href=""> course</a></li>
+        <li><a  href=""> online courses</a></li>
+        <li><a  href="./index.html"> contact us</a></li>
+        <li><a  class="login" href=""> student login</a></li>
     </ul>
-   
+    <label id="icon"><i class="fas fa-bars"></i></label>
   </nav>
 
-  <div class="contact_us_page_wrapper">
+            <main>
+            <div class="main-heading">
+                <h1>Contact Us</h1>
+            </div>
 
-  <main>
-<div class="main-heading">
-    <h1>Contact Us</h1>
-</div>
-  <div class="container">
-    <div class="box">
-    <div class="left">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.828600098698!2d90.32815681436895!3d22.734611232735066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37553666f420601d%3A0x1c38acd1a4071da5!2sGeneral%20Sanitary!5e0!3m2!1sen!2sbd!4v1661327028046!5m2!1sen!2sbd" width="400" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div> 
-      <div class="main-contact">
-      <div class="contact-address">
-        <ul>
-        <li>
-        <div class="single-address">
-          <div class="icon">
-            <i class="fa-solid fa-house"></i>
+              <div class="container">
+              <div class="box">
+              <div class="left">
+                <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.828600098698!2d90.32815681436895!3d22.734611232735066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37553666f420601d%3A0x1c38acd1a4071da5!2sGeneral%20Sanitary!5e0!3m2!1sen!2sbd!4v1661327028046!5m2!1sen!2sbd" width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                  
+
+                <div class="main-contact">
+                <div class="contact-address">
+                <div class="left-boxtext">
+                <ul>
+                  <li>
+                    <div class="icon">
+                      <i class="fa-solid fa-house"></i>
+                    </div>
+                   <div class="cont">
+                    <p>SHOP NO 13, ACME BUILDING, SARVODAY NAGAR, OPP BALVIKAS <br> SCHOOL,  JOGESHWARI (E), MUMBAI-400 060.</p>
+                   </div>
+                 </li>
+              
+
+                <li>
+                    <div class="icon color2">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                  <div class="cont">
+                  <p>+1987077586 <br>
+                    +17458451263 
+                  </p>
+                 </div>
+              </li>
+
+
+              <li>
+                  <div class="icon color1">
+                     <i class="fa-solid fa-envelope"></i>
+                  </div>        
+                  <div class="cont">
+                   <p>
+                    aovroy44@gmil.com <br>
+                    royaov818@gmail.com
+                   </p>
+                 </div>
+             </li>  
+           
+          </ul> 
+          </div> 
+          </div>
+          </div>
+
+
 
           </div>
-        <div class="cont">
-        <p>SHOP NO 13, ACME BUILDING, SARVODAY NAGAR, OPP BALVIKAS <br> SCHOOL,  JOGESHWARI (E), MUMBAI-400 060.</p>
-      </div>
-      </div>
-    </li>
-     
+          </div>
+          
 
-        <li>
-        <div class="single-address">
-          <div class="icon color2">
-            <i class="fa-solid fa-phone"></i>
+          <div class="contact-box">
+          <div class="contact-form">
+          <div class="right">
+           <h2 class="header">Send Us A Mesage</h2> 
+           <form action="" class="contact-form">
+                  <input type="text" class="field" Placeholder="Your Name" required>
+                  <input type="text" class="field" Placeholder="Your Email" required>
+                  <input type="text" class="field" Placeholder="Phone" required>
+                  <textarea name="message" placeholder="Message" class="field"></textarea>
+                  <button class="btx">Send Message</button>
+            </form>
+
+          </div>
+          </div>
+          </div>
+
         </div>
-        <div class="cont">
-        <p>+1987077586 <br>
-          +17458451263 
-        </p>
-      </div>
-      </div>
-    </li>
+        </main>
 
 
-        <li>
-        <div class="single-address">
-          <div class="icon color1">
-            <i class="fa-solid fa-envelope"></i>
-          </div>        
-        <div class="cont">
-        <p>
-          aovroy44@gmil.com <br>
-          royaov818@gmail.com
-        </p>
-      </div>
-      </div>
-    </li>
+<div class="introduce">
+  <img src="./img/meher vai.jpg" alt="Image">
+  <h3>Meher Kanti Sarkar</h3>
+  <p>Director of MKS ACADEMY </p>
+  <a href="http://www.youtube.com/amandhattarwal"  target="_blank" rel="noopener noreferrer"> <span><i class="fa-brands fa-facebook"></i></span><span class="f"> Facebook </span></a>
+  <a href="http://www.linkedin.com/in/dhattarwalaman" target="_blank" rel="noopener noreferrer"> <span><i class="fa-brands fa-instagram"></i></span><span class="L">Instragram</span></a>
+  <a href="http://www.instagram.com/dhattarwalaman" target="_blank" rel="noopener noreferrer"> <span><i class="fa-brands fa-linkedin"></i></span><span class="I">LinkedIn</span></a>
+</div>
 
-    </ul>   
-  </div>
+    <!--Start Footer Part-->
+    <footer>
+      <div class="container-1">
+        <div class="row-1">
+          <div class="footer-col">
+            <h4>OTHER ACTIVITIES</h4>
+          <ol>
+            <li> <i class="fa fa-circle" aria-hidden="true"></i> Convocation Ceremony.</li>
+            <li> <i class="fa fa-circle" aria-hidden="true"></i> Over Night Camping.</li>
+            <li> <i class="fa fa-circle" aria-hidden="true"></i> Picnic.</li>
+            <li> <i class="fa fa-circle" aria-hidden="true"></i> Career Guidance Seminar.</li>
+            
+            
+          </ol>
+          </div>
+
+          <div class="footer-col">
+            <h4>GET IN TOUCH</h4>
+            <p> <i class="fa-solid clone fa-location-dot"></i> <span class="first-txt">Shop No 13, ACME Building, Sarvoday Nagar, <br> Jogeshwari (E), Muumbai:- 400  060</span> </p>
+            <p> <span class="second-txt"> <i class="fa-solid clone fa-envelope"></i>sandeepacademy911@gmail.com</span></p>
+            <p> <span class="third-txt"><i class="fa-sharp clone fa-solid fa-phone"></i> 7021300481/ 9702744247</span></p>
+            <p> <span class="fourth-txt"><i class="fa-brands clone fa-whatsapp"></i> 7021300481</span></p>
+          </div>
+
+          <div class="footer-col">
+            <h4>BE SOCIAL</h4>
+            <div class="social-links">
+              <a href="#"> <i class="fab fa-facebook-f"></i></a>
+              <a href="#"> <i class="fab fa-instagram"></i></a>
+              <a href="#"> <i class="fab fa-twitter"></i></a>
+              <a href="#"> <i class="fab fa-linkedin-in"></i></a>             
+            </div>
+            <a href="#"><img class="play-store" src="./img/google-play-img.png" alt="google play"></a>
+          </div>
+
+        </div>
+      </div>
+      
+    </footer>
+    <div id="fixed-update-footer" class="navbar-fixed-bottom">
+      <marquee direction="scroll"> Hurry Up!!! We are starting our new batches from 15 september 2022. Confirm your admission soon and get up to 5000 discount. Offer valid for Limited Period.</marquee>
     </div>
-</div>
-
-  <div class="contact-box">
-      <div class="right">
-        <h2 class="header">Send Us A Mesage</h2> 
-        <form action="" class="contact-form">
-          <input type="text" class="field" Placeholder="Your Name" required>
-          <input type="text" class="field" Placeholder="Your Email" required>
-          <input type="text" class="field" Placeholder="Phone" required>
-          <textarea name="message" placeholder="Message" class="field"></textarea>
-          <button class="btn">
-            Send Message
-          </button>
-
-        </form>
-
-      </div>
-  </div>
-</div>
-</main>
-
-
-</div>
-<footer>
-  <div class="details">
-  <h3>Get in touch</h3>
- <p>  Shop No 13, <br> ACME Building, <br> Sarvoday Nagar, <br> Jogeshwari (E), <br>
-  sandeepacademy911@gmail.com <br>
-  7021300481/ 9702744247 <br>
-</p>   
-
-</div>
-  <a href="#">FAQ</a>
-  <a href="#">Contact Us</a>
-  <a href="#">Refund Policy</a>
-  <a href="#">&copy; 2020 | Apni Kaksha</a>
-
-
-</footer>
 
 </body>
 </html>
 
 
-
-.contact-address ul li .single-address .icon i{
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  color: white;
-}
 

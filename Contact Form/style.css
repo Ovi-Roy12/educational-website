@@ -25,6 +25,7 @@ nav{
   width: 100%;
   background-color: #333;
   overflow: hidden;
+  box-shadow: 0px 0px 19px 5px rgba(37, 34, 34, 0.5);
 }
 
  .logo{
@@ -166,8 +167,6 @@ nav a{
   margin-left: 25px;
   margin-top: 140px;
   width: 50vw;
-
- 
 }
 
 .box, .main-contact{
@@ -182,8 +181,75 @@ position: absolute;
 }
 
 .left-boxtext{
-  width: 100vw;
+  width: 40vw;
+  height: 35vh;
 }
+
+.contact-address{
+  background-color: #003F5C;
+  position: absolute;
+  margin-bottom: 5px;
+  margin-top: 301px;
+}
+.contact-address ul{
+  margin-top: 4px;
+}
+
+.contact-address ul li{
+  padding-top: 15px;
+  list-style: none;
+
+}
+
+.contact-address ul li {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contact-address ul li  .icon{
+  border-radius: 50%;
+  border: 1px solid #d83030;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  background: #d83030;
+}
+
+.contact-address ul li  .icon i{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+}
+
+.contact-address ul li  .icon{
+  margin-bottom: 16px;
+}
+
+.contact-address ul li  .icon .cont{
+  padding-left: 20px;
+}
+.contact-address ul li   .cont p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  padding: 0px 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.color1{
+  border: 1px solid	#ff8000!important;
+  background: 	#ff8000!important;
+}
+
+.color2{
+  border: 1px solid #f3a712!important;
+  background: #f3a712!important;
+}
+
 
 
 .right h2{
@@ -257,72 +323,6 @@ textarea{
 
 
 
-.contact-address{
-  background-color: #003F5C;
-  height: 33vh;
-  width: 47vw;
-  position: absolute;
-  margin-bottom: 5px;
-  margin-top: 301px;
-}
-.contact-address ul{
-  margin-top: 4px;
-}
-
-.contact-address ul li{
-  padding-top: 15px;
-  list-style: none;
-
-}
-
-.contact-address ul li {
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.contact-address ul li  .icon{
-  border-radius: 50%;
-  border: 1px solid #d83030;
-  color: #fff;
-  font-size: 18px;
-  text-align: center;
-  background: #d83030;
-}
-
-.contact-address ul li  .icon i{
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  color: white;
-}
-
-.contact-address ul li  .icon{
-  margin-bottom: 16px;
-}
-
-.contact-address ul li  .icon .cont{
-  padding-left: 20px;
-}
-.contact-address ul li   .cont p{
-  font-size: 12px;
-  font-weight: 400;
-  color: #fff;
-  margin-right: 15px;
-  margin-bottom: 12px;
-  padding: 0px 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.color1{
-  border: 1px solid	#ff8000!important;
-  background: 	#ff8000!important;
-}
-
-.color2{
-  border: 1px solid #f3a712!important;
-  background: #f3a712!important;
-}
 
 
 
